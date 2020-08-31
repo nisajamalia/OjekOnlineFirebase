@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEBEE"
+    tools:context=".activity.SignUpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/delivery"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30dp"/>
+
+    <EditText
+        android:id="@+id/signUpName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:hint="@string/nama"
+        android:textSize="@dimen/_18dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:background="@drawable/background2"/>
+
+    <EditText
+        android:id="@+id/signUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:hint="@string/email"
+        android:textSize="@dimen/_18dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@drawable/background2"/>
+
+    <EditText
+        android:id="@+id/signUpHp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:hint="@string/_hp"
+        android:textSize="@dimen/_18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@drawable/background2"/>
+
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:hint="@string/password"
+        android:textSize="@dimen/_18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@drawable/background2"/>
+
+    <EditText
+        android:id="@+id/signUpConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:hint="@string/conformpassword"
+        android:textSize="@dimen/_18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@drawable/background"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45dp"
+        android:text="@string/sign_up"
+        android:background="@drawable/background"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:layout_marginLeft="@dimen/_30dp"/>
+
+</LinearLayout>

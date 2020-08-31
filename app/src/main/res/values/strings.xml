@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OjekOnlineFirebase</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="dont">dont have account sign up</string>
+    <string name="Or" />
+    <string name="sign">Sign Up google</string>
+    <string name="or">Or</string>
+    <string name="login">Login</string>
+    <string name="nama">Name</string>
+    <string name="_hp">Nomer hp</string>
+    <string name="conformpassword">Confirm Password</string>
+    <string name="sign_up">SignUp</string>
+    <string name="history_dashboard">History</string>
+    <string name="profil_notifications">Profile</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="dari">Dari mana?</string>
+    <string name="mau">Mau kemana?</string>
+    <string name="dari_mana">Dari mana?</string>
+    <string name="mau_kemana">mau kemana?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="harga">Harga</string>
+    <string name="price">Rp 50.000</string>
+    <string name="estimasi_waktu">estimasi waktu</string>
+    <string name="_3_menit">3 menit</string>
+    <string name="pesan">Pesan</string>
+</resources>
